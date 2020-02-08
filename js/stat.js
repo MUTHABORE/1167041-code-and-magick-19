@@ -31,13 +31,11 @@ var getMaxElement = function (arr) {
 };
 
 var getRandomInteger = function (min, max) {
-  var randomNumber = min + Math.random() * (max - min);
-  return randomNumber;
+  return min + Math.random() * (max - min);
 };
 
 var getRandomBlue = function () {
-  var randomBlue = 'hsl(230, ' + getRandomInteger(0, 100) + '%, 50%)';
-  return randomBlue;
+  return 'hsl(230, ' + getRandomInteger(0, 100) + '%, 50%)';
 };
 
 var getGistHeight = function (time, maxTime) {
