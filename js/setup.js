@@ -63,4 +63,3 @@ similarListElement.appendChild(fragment);
 
 document.querySelector('.setup').classList.remove('hidden');
 document.querySelector('.setup-similar').classList.remove('hidden');
-console.log(wizards[0].name);
